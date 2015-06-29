@@ -3,7 +3,8 @@ a {
 }
 
 a:hover,
-a:focus {
+a:focus,
+a:active{
   color: white;
   text-decoration: none;
 }
@@ -13,7 +14,8 @@ a:focus {
     opacity: 0.8;
 }
 
-.landing:hover {
+.landing:hover,
+.landing:active {
     opacity:1;
 }
 
