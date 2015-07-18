@@ -38,3 +38,11 @@ a:active{
 .header {
     margin-bottom: 15%;
 }
+
+.img-responsive {
+    margin: 0 auto;
+}
+
+.feed {
+    margin-top: 1%
+}
