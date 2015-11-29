@@ -2,6 +2,13 @@ a {
     color: black;
 }
 
+.row {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 a:hover,
 a:focus,
 a:active{
@@ -11,7 +18,7 @@ a:active{
 
 .landing {
     margin-bottom: 10px;
-    opacity: 0.8;
+    opacity: 0.95;
 }
 
 .landing:hover,
@@ -21,9 +28,9 @@ a:active{
 
 .caption {
     position: absolute;
-    top: 40%;
+    top: 80%;
     left: 5%;
-    right: 5%;
+    right: 40%;
     font-size: 50px;
     color: white;
 }
@@ -44,5 +51,5 @@ a:active{
 }
 
 .feed {
-    margin-top: 1%
+    margin-top: 2.5%
 }
