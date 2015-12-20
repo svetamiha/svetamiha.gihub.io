@@ -1,5 +1,4 @@
 body {
-    background: rgb(230,230,230);
     background: #E4D2B6;
 }
 
@@ -23,12 +22,7 @@ a:active{
 
 .landing {
     margin-bottom: 10px;
-    opacity: 0.8;
-    -webkit-filter: grayscale(1);
-    -moz-filter: grayscale(1);
-    -o-filter: grayscale(1);
-    -ms-filter: grayscale(1);
-    filter: grayscale(1);
+    opacity: 0.1;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
@@ -39,11 +33,6 @@ a:active{
 .landing:hover,
 .landing:active {
     opacity:1;
-    -webkit-filter: grayscale(0);
-    -moz-filter: grayscale(0);
-    -o-filter: grayscale(0);
-    -ms-filter: grayscale(0);
-    filter: grayscale(0);
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
@@ -88,11 +77,15 @@ a:active{
     margin-bottom: 15px;
 }
 
-.video-rounded{
+.video-rounded {
     -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
     -webkit-transform: rotate(0.000001deg);
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
     overflow: hidden;
+}
+
+.back-responsive {
+    background-size:100%;
 }
